@@ -1,0 +1,855 @@
+/* Mobile Version */
+@media only screen and (max-width: 600px) {
+    /* Navbar */
+    .h-nav .navbar{
+        background-color: #fff;
+        box-shadow: 2px 2px 20px 5px #888888;
+    }
+    .h-nav .navbar-brand{
+        color: black !important;
+        font-size: 25px;
+    }
+    .h-nav .nav-link,.nav-item .btn{
+        margin-right: 10px;
+        font-size: 15px;
+        font-weight: bold;	
+    }
+    .h-nav .nav-link{
+        color: rgb(19, 18, 18);
+    }
+    
+    .h-nav .nav-link:hover{
+        color: #22a4cf !important;
+    
+      
+    }
+    .h-nav .dropdown:hover .dropdown-menu{
+        display: block;
+        border: none;
+    }
+
+    /*  */
+    .jumbotron {
+       
+	background-size: cover;
+	max-height: 840px;
+	text-align: center;
+	position: relative;
+    }
+    
+    .jumbotron .container {
+        position: relative;
+        z-index: 1;
+    }
+    
+    .jumbotron::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .jumbotron .display-4 {
+        color: antiquewhite;
+        margin-top: 150px;
+        font-weight: 200;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+        font-size: 40px;
+        font-family: viga;
+    }
+    
+    .jumbotron p {
+        color: antiquewhite;
+        font-weight: 200;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+        font-size: 40px;
+    }
+    .jumbotron .carousel-inner .carousel-item img{
+    height: 300px;
+}
+    
+    .program h1 {
+        font-size: 30px;
+        
+    }
+    .cntr-text{
+        font-size: 15px;
+        margin: auto;
+        width: 400px;
+        height: 100px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .program .card{
+        background-color: white;
+        border: none;
+        text-align: center;
+        margin: auto;
+    
+    }
+    .program .btn{
+        font-size: 12px;
+    }
+    .program .icon-img{
+        width: 80px;
+        height: 80px;
+        margin: auto;
+    
+    }
+    .ayo-donasi{
+        background-color:#fff;
+       
+    }
+    .ayo-donasi .card {
+        font-size: 1em;
+        overflow: hidden;
+        padding: 0;
+        border: none;
+        border-radius: .28571429rem;
+        box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    }
+    
+    .ayo-donasi .card-block {
+        font-size: 1em;
+        position: relative;
+        margin: 0;
+        padding: 1em;
+        border: none;
+        border-top: 1px solid rgba(34, 36, 38, .1);
+        box-shadow: none;
+    }
+    
+    .ayo-donasi .card-img-top {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+    .ayo-donasi .card-title {
+        font-size: 1.28571429em;
+        font-weight: 700;
+        line-height: 1.2857em;
+    }
+    
+    .ayo-donasi .card-text {
+        clear: both;
+        margin-top: .5em;
+        color: rgba(0, 0, 0, .68);
+    }
+    
+    .ayo-donasi .card-footer {
+        font-size: 1em;
+        position: static;
+        top: 0;
+        left: 0;
+        max-width: 100%;
+        padding: .75em 1em;
+        color: rgba(0, 0, 0, .4);
+        border-top: 1px solid rgba(0, 0, 0, .05) !important;
+        background: #fff;
+    }
+    .ayo-donasi .meta {
+        font-size: 1em;
+        color: rgba(0, 0, 0, .4);
+    }
+    
+    .ayo-donasi .card{
+        margin: auto;
+    }
+    .ayo-donasi .link-card{
+        color: #000 !important;
+        text-decoration: none;
+    }
+    .ayo-donasi .link-card:hover{
+        color: #0b63dc !important;
+    }
+    .ayo-donasi .meta {
+        font-size: 1em;
+        color: rgba(0, 0, 0, .4);
+    }
+    .ayo-donasi h1{
+        font-size: 30px;
+    }
+    .ayo-donasi .program-lainnya{
+        margin-left:150px;
+    }
+    /* program lainnya  */
+    .program-lainnya{
+        margin-top: 100px;
+        background-color:#fff;
+       
+    }
+    /*  */
+    .program-lainnya nav .nav-ul {
+        padding: 0 20px;
+        list-style: none;
+        position: relative;
+        display: inline-table;
+        width: 100%;
+     }
+    
+     .program-lainnya nav .nav-ul .nav-l ,.program-lainnya nav .sub-nav{
+        float:left;
+    }
+    .program-lainnya .nav-link{
+        color: #000;
+    }
+    .program-lainnya .right{
+        margin-left: 250px;
+        margin-top: -80px;
+
+    }
+/*  */
+    .program-lainnya .card {
+        font-size: 1em;
+        overflow: hidden;
+        padding: 0;
+        border: none;
+        border-radius: .28571429rem;
+        box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    }
+    
+    .program-lainnya .card-block {
+        font-size: 1em;
+        position: relative;
+        margin: 0;
+        padding: 1em;
+        border: none;
+        border-top: 1px solid rgba(34, 36, 38, .1);
+        box-shadow: none;
+    }
+    
+    .program-lainnya .card-img-top {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+    .program-lainnya .card-title {
+        font-size: 1.28571429em;
+        font-weight: 700;
+        line-height: 1.2857em;
+    }
+    
+    .program-lainnya .card-text {
+        clear: both;
+        margin-top: .5em;
+        color: rgba(0, 0, 0, .68);
+    }
+    
+    .ayo-donasi .card-footer {
+        font-size: 1em;
+        position: static;
+        top: 0;
+        left: 0;
+        max-width: 100%;
+        padding: .75em 1em;
+        color: rgba(0, 0, 0, .4);
+        border-top: 1px solid rgba(0, 0, 0, .05) !important;
+        background: #fff;
+    }
+    .program-lainnya .meta {
+        font-size: 1em;
+        color: rgba(0, 0, 0, .4);
+    }
+    
+    .program-lainnya .card{
+        margin: auto;
+    }
+    .program-lainnya .link-card{
+        color: #000 !important;
+        text-decoration: none;
+    }
+    .program-lainnya .link-card:hover{
+        color: #0b63dc !important;
+    }
+    .program-lainnya .meta {
+        font-size: 1em;
+        color: rgba(0, 0, 0, .4);
+    }
+    .program-lainnya h1{
+        font-size: 30px;
+    }
+    .program-lainnya .pagging{
+        margin-left: 100px;
+    }
+    /* End Program lainnya */
+    .berita{
+        margin-top: 100px;
+        background-color:#fafbfb;
+        max-height: 1500px;
+    }
+    .berita .card{
+        margin: auto;
+    }
+    .berita .link-card{
+	color: #000 !important;
+	text-decoration: none;
+}
+.berita .link-card:hover{
+	color: #0b63dc !important;
+}
+    .berita h1{
+        font-size: 30px;
+    }
+    .berita .berita-lainnya{
+        margin-left:150px;
+    }
+
+    .berita .card-title{
+        margin: 0;
+    }
+    .berita small{
+        font-size: 11px;
+    }
+
+.gallery{
+    background-color:#fff;
+    margin-top: 850px;
+    height: 500px;
+}
+.gallery .carousel-inner .carousel-item img{
+        margin: 0 auto;
+}
+
+.gallery .carousel-inner{
+    margin: auto;
+    
+}
+.gallery .carousel-inner{
+    width: 460px;
+    height: 200px;
+
+    
+}
+.gallery .carousel-inner .carousel-item img{
+        margin: 0 auto;
+}
+.gallery .img-size{
+
+    width: 460px;
+    height: 200px
+
+    
+    .content {
+        margin-top: 70px;
+    }
+/* Berita lainnya */
+.s-berita-lainnya .container,.s-berita-lainnya .pagging{
+	background-color: white;
+}
+.s-berita-lainnya{
+    margin-top: 130px;
+    max-width: 2000px;
+}
+.s-berita-lainnya .search{
+    width: 80%;
+    margin: auto;
+    border: 2px solid #0b63dc;
+}
+.s-berita-lainnya nav{
+	background-color: #fff;
+}
+.s-berita-lainnya nav {
+	margin:auto;
+    text-align: center;
+	width: 100%;
+	font-family: arial;
+} 
+.s-berita-lainnya ul li{
+    display: inline-block;
+}
+.s-berita-lainnya nav .nav-ul {
+	
+	padding: 0 20px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	width: 100%;
+ }
+
+ .s-berita-lainnya nav .nav-ul .nav-l ,.s-berita-lainnya nav .sub-nav{
+	float:left;
+}
+
+.s-berita-lainnya nav .nav-ul .nav-l a:hover{
+	color: #0b63dc;
+}
+
+.s-berita-lainnya nav .nav-ul .active{
+
+	display: block;
+	border-bottom: 3px solid#0b63dc;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+}
+
+.s-berita-lainnya nav .sub-nav{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.s-berita-lainnya nav .nav-ul .nav-l a ,.s-berita-lainnya nav .sub-nav{
+	display: block;
+	padding: 15px;
+	color: rgb(14, 13, 13);
+	text-decoration: none;
+}
+/* content berita */
+.content-berita .card{
+    margin: auto;
+}
+/* End Berita lainnya */
+/* Project */
+.project{
+    margin-top: 100px;
+    
+    
+}
+.project .card{
+	height: 300px;
+	border: none;
+}
+.project .card .text-uang{
+	font-size: 15px;
+}
+.project .card .m-text{
+    margin-top: -45px;
+}
+.project .card .m-text-u{
+    margin-top: -40px;
+}
+.project .card .img-d-m{
+   margin-right: 300px;
+   margin-top: -90px;
+}
+.project .card .hidden{
+    opacity: 0;
+    margin-top: -100px;
+}
+.project .card .donasi-sekarang{
+	width: 100%;
+	height: 50px;
+	padding: 10px;
+}
+.project .nav-bar{
+	margin-top: 600px;
+}
+.project .nav-bar .nav-item .nav-link{
+	font-size: 20px;
+	color: rgb(119, 118, 118);
+	font-weight: bold;
+}
+.project .nav-bar .nav-item .active{
+	border: none;
+	color: #000;
+	border-bottom: 2px solid #000;
+	width: 100%;
+}
+.project .card .user-donasi{
+	text-align:justify;
+	width:75%; 
+	padding:8px;
+}
+.project .card .user-donasi .img-user-donasi{
+	float:left; 
+	widows: 70px;
+	height:70px;
+	margin:0 8px 4px 0;
+}
+
+/* End Project */
+    
+    .bxr {
+        width: 650px;
+        height: 700px;
+        background-color: #fff;
+        border-radius: 20px;
+    }
+    
+    .bxr img {
+        width: 650px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    .boxl {
+        width: 450px;
+        height: 300px;
+        background-color: #fff;
+        float: right;
+        margin-top: -700px;
+        border-radius: 20px;
+    }
+    
+    .content .bxr .descripsi {
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+    .jumbotron-frm {
+        background: #22a4cf;
+        color: white;
+        height: 200px;
+    }
+    
+    /* Donasi */
+    .donasi {
+        background-color: #fff;
+        height: 1650px;
+        margin-top: 50px;
+    }
+    .donasi .profile {
+        position: absolute;
+        display: inline-block;
+        overflow: hidden;
+        box-sizing: border-box;
+        width: 50px;
+        height: 50px;
+        margin: 0;
+        margin-bottom: 10px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+    }
+    .donasi .profile-avatar {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .profile-inline {
+        position: relative;
+        top: 0;
+        display: inline-block;
+    }
+    .donasi .card-title {
+        font-size: 1.28571429em;
+        font-weight: 700;
+        line-height: 1.2857em;
+    }
+    
+    .donasi .card-text {
+        clear: both;
+        margin-top: .5em;
+        color: rgba(0, 0, 0, .68);
+    }
+    
+    .donasi .profile-inline , .donasi .card-title {
+        display: inline-block;
+        margin-left: 4px;
+        vertical-align: top;
+    }
+    
+    
+    .box-l {
+        width: 455px;
+        max-height: 650px;
+        margin-top: 100px;
+        margin-right: 100px;
+    
+    }
+    
+    .box-r {
+        position: absolute;
+        margin-top: 350px;
+        width: 455px;
+        height: 650px;
+        margin-right:50px ;
+    
+        
+    }
+    .box-r .readinput:read-only{
+        background-color: #fff;
+        color: blue;
+        border: none;
+        margin-top: 10px;
+    }
+    
+    .box-r-b {
+        width: 350px;
+        height: 200px;
+        float: right;
+        margin-top: 500px;
+        background-color: #fff;
+    }
+    
+    .donasi .box-r-b img {
+        width: 320px;
+    }
+    
+    .option {
+        height: 100px;
+        background-color: transparent;
+    
+    }
+    
+    .btn-option {
+        width: 100px;
+        background-color: edfcf3;
+        border: 1px solid rgb(42, 42, 43);
+        border-radius: 5px;
+    }
+    
+    .btn-option:hover {
+        background-color: transparent;
+    }
+    
+    .donasi .pilihan-donasi {
+        background-color: #bbfad6;
+        width: 450px;
+        height: 350px;
+    }
+    
+    .donasi .profil-donasi {
+        margin-top: 70px;
+        background-color: #bbfad6;
+        width: 450px;
+        height: 330px;
+    
+    }
+    
+    .donasi .payment-donasi {
+        
+        width: 650px;
+        height: 550px;
+        margin-right: 100px;
+        border-left: 1px solid #8f8d8c;
+        border-right: 1px solid #8f8d8c;
+        border-bottom: 1px solid #8f8d8c;
+        
+        
+    }
+    .cntn-pymnt{
+        background-color: ivory;
+        border: 1px solid #22a4cf;
+        width: 650px;
+        height: 450px;
+    }
+    .img-bank{
+        width: 150px;
+        height: 100px;
+    
+    }
+    .donasi .button-b{
+        margin: auto;
+        width: 350px;
+        height: 40px;
+    }
+    /*  */
+    .formakhir{
+        margin-top: 150px;
+        height: 600px;
+    }
+    .formakhir .card{
+        width: 100% !important;
+        margin: auto;
+        background-color: #fff;
+        border: none;
+    }
+    .formakhir .profile {
+        position: absolute;
+        display: inline-block;
+        overflow: hidden;
+        box-sizing: border-box;
+        width: 50px;
+        height: 50px;
+        margin: 0;
+        margin-bottom: 10px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+    }
+    .formakhir .profile-avatar {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .formakhir .profile-inline {
+        position: relative;
+        top: 0;
+        display: inline-block;
+    }
+    
+    .formakhir .profile-inline {
+        display: inline-block;
+        margin-left: 4px;
+        vertical-align: top;
+    }
+    .formakhir .mt{
+        margin-top: -60px;
+    }
+    .formakhir .ml{
+        margin-left: 30px;
+    }
+    .formakhir hr{
+        border: 1px solid #888888;
+    }
+
+.formakhir .btn{
+	margin-top: 10px;
+	width: 100%;
+	
+}
+    
+    
+    /* footer */
+    .footer{
+        margin-top: 100px;
+    }
+    .page-footer{
+        box-shadow: 2px 2px 20px 0px #888888
+    }
+       
+    /* End footer*/
+    /* Modal  */
+.modal-login .btn {
+    margin: auto;
+    color: inherit;
+    word-wrap: break-word;
+    white-space: normal;
+    cursor: pointer;
+    border: 0;
+    border-radius: .125rem;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    padding: .84rem 2.14rem;
+    font-size: .95rem;
+}
+.modal-login .btn-default {
+    color: #fff;
+    background-color:  #0b63dc !important;
+}
+
+.modal-login .btn-default:hover {
+    color: #fff;
+	background-color:  #5299fd !important;
+}
+.modal-login {
+	color: #636363;
+	width: 400px;
+}
+.modal-login .modal-content {
+	padding: 20px;
+	border-radius: 5px;
+	border: none;
+}
+.modal-login .modal-header {
+	max-width: 100%;
+    height: auto;
+	border-bottom: 1px solid #dad7d7;
+	position: relative;
+	justify-content: center;
+}
+.modal-login h4 {
+	text-align: center;
+	font-size: 26px;
+}
+.modal-login  .form-group {
+	margin-top: 10px;
+	position: relative;
+}
+.modal-login i {
+	position: absolute;
+	left: 13px;
+	top: 11px;
+	font-size: 18px;
+}
+.modal-login .icon-lock {
+	position: absolute;
+	left: 30px;
+	top: 11px;
+	font-size: 18px;
+}
+.modal-login .form-control {
+	padding-left: 40px;
+}
+.modal-login .form-control:focus {
+	border-color: #0b63dc;
+}
+.modal-login .form-control, .modal-login .btn {
+	min-height: 40px;
+	border-radius: 3px; 
+}
+.modal-login .hint-text {
+	text-align: center;
+	padding-top: 10px;
+}
+.modal-login .close {
+	position: absolute;
+	top: -5px;
+	right: -5px;
+	
+}
+.modal-login .close:hover {
+	color: red !important;
+	
+}
+
+.modal-login .modal-footer {
+	padding-right: 2rem;
+    padding-left: 2rem;
+    color: #616161
+}
+.modal-login .modal-footer a {
+    margin: auto;
+	color: #999;
+	text-decoration: none;
+}
+/* End Modal */
+/* Scroll back to top */
+/* Back to Top Pure CSS With Delay by igniel.com */
+.back-top {
+	display: none;
+	position: fixed; /* Fixed/sticky position */
+	width:30px;
+	height:30px;
+	bottom: 8px; /* Place the button at the bottom of the page */
+	right: 40px; /* Place the button 30px from the right */
+	z-index: 100; /* Make sure it does not overlap */
+	text-align:center;
+	outline: none; /* Remove outline */
+	background:#0b63dc url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") ;
+	color: white; /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 15px; /* Some padding */
+	font-size: 40px; /* Increase font size */
+  }
+  .back-top:hover{
+	background: #000 url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") ;
+	opacity: 1;
+}
+/* End */
+/* button wa */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:60px;
+	right:30px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+ 	font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+.float:hover{
+	background-color:#25d366;
+	color:#FFF;
+}
+.my-float{
+	margin-top:16px;
+}
+/* End */
+}
+
+/* End Mobile Version */
